@@ -12,5 +12,19 @@
     "bedNumber": 1,
     "timestamp": "2025-11-10T23:34:29.632607",
     "status": "released"
+  },
+  {
+    "patientId": "P001",
+    "roomNumber": "A101",
+    "bedNumber": 1,
+    "timestamp": "2025-11-11T16:32:01.215643",
+    "status": "assigned"
+  },
+  {
+    "patientId": "P001",
+    "roomNumber": "A101",
+    "bedNumber": 1,
+    "timestamp": "2025-11-11T16:38:18.633913",
+    "status": "released"
   }
 ]

@@ -25,6 +25,14 @@ class AllocationService {
       throw AllocationError('patient_not_found', 'Patient not found');
     }
 
+    // Prevent assigning a second bed to the same patient
+    final allRooms = await roomRepo.findAll();
+    final alreadyAssigned =
+        allRooms.any((r) => r.beds.any((b) => b.patientId == patientId));
+    if (alreadyAssigned) {
+      throw AllocationError('already_assigned', 'Patient already assigned to a bed');
+    }
+
     var rooms = await roomRepo.findAvailable();
 
     if (patient.priority == Priority.high) {
