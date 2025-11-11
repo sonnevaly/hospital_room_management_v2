@@ -1,0 +1,11 @@
+name: hospital_room_management_v2
+description: Hospital Room Management System (Dart + JSON) with Patient History feature
+version: 2.0.0
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  path: ^1.9.0
+
+dev_dependencies:
+  test: ^1.25.0

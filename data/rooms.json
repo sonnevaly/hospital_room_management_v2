@@ -1,0 +1,51 @@
+[
+  {
+    "number": "A102",
+    "type": "General",
+    "floor": 1,
+    "capacity": 2,
+    "beds": [
+      {
+        "number": 1,
+        "status": "available",
+        "patientId": null
+      },
+      {
+        "number": 2,
+        "status": "available",
+        "patientId": null
+      }
+    ]
+  },
+  {
+    "number": "A101",
+    "type": "General",
+    "floor": 1,
+    "capacity": 2,
+    "beds": [
+      {
+        "number": 1,
+        "status": "available",
+        "patientId": null
+      },
+      {
+        "number": 2,
+        "status": "available",
+        "patientId": null
+      }
+    ]
+  },
+  {
+    "number": "ICU-1",
+    "type": "ICU",
+    "floor": 1,
+    "capacity": 1,
+    "beds": [
+      {
+        "number": 1,
+        "status": "available",
+        "patientId": null
+      }
+    ]
+  }
+]
